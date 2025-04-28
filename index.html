@@ -1,71 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spirited Away</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .movie-poster {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-    </style>
-</head>
-<body>
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <h1 class="text-center mb-4">Spirited Away</h1>
-                
-                <div class="card mb-4">
-                    <div class="card-body text-center">
-                        <img src="assets/qianxun.jpg" alt="Spirited Away Poster" class="movie-poster">
-                    </div>
-                </div>
-                
-                <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab">Description</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="cast-tab" data-bs-toggle="tab" data-bs-target="#cast" type="button" role="tab">Cast</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="trivia-tab" data-bs-toggle="tab" data-bs-target="#trivia" type="button" role="tab">Trivia</button>
-                    </li>
-                </ul>
-                
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="description" role="tabpanel">
-                        <p>Spirited Away tells the story of Chihiro, a young girl who finds herself trapped in a mysterious and magical world of spirits. To return to the human world, she must work in a bathhouse for the spirits and find her inner strength.</p>
-                    </div>
-                    
-                    <div class="tab-pane fade" id="cast" role="tabpanel">
-                        <h4>Main Cast</h4>
-                        <ul class="list-group">
-                            <li class="list-group-item">Chihiro: Rumi Hiiragi</li>
-                            <li class="list-group-item">Haku: Miyu Irino</li>
-                            <li class="list-group-item">Yubaba: Mari Natsuki</li>
-                            <li class="list-group-item">Kamaji: Bunta Sugawara</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="tab-pane fade" id="trivia" role="tabpanel">
-                        <h4>Trivia</h4>
-                        <p>It is the only non-English language film to win the Academy Award for Best Animated Feature.</p>
-                        <p>The movie was made without a script; Hayao Miyazaki wrote the story as he drew the storyboard!</p>
-                        <p>Spirited Away overtook Titanic's box office record in Japan when released.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <div id="banner">
+      <div id="banner-left">
+        <img src="img/banner01.jpg" alt="">
+      </div>
+      <div id="banner-right">
+        <img src="img/banner02.jpg" alt="">
+      </div>
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="">Shinchan: Shiro and the Coal Town Game </a></li>
+        <li><a href=""> Characters </a></li>
+        <li><a href="">Who's your favorite? </a></li>
+      </ul>
+    </div>
+    <h1 style="text-align: center;margin-top: 30px;">Shinchan: Shiro and the Coal Town</h1>
+    <h1 style="text-align: center;margin-top: 10px;font-size: 24px;">(Available on: Nintendo Switch and Windows PC)</h1>
+    <div id="video">
+      <video src="1.mp4" controls></video>
+    </div>
+    <h1 style="text-align: center;margin-top: 20px;">The Characters</h1>
+    <div id="char">
+      <div class="char-flex">
+        <h3>Shinnosuke Nohara (Shinchan)</h3>
+        <img src="img/img1.png" alt="">
+        <p>The mischievous 5-year-old protagonist known for his
+          hilarious antics and love of choco chips.</p>
+      </div>
+      <div class="char-flex">
+        <h3>Misae Nohara (Mom)</h3>
+        <img src="img/img2.webp" alt="">
+        <p>Shinchan’s short-tempered but loving mother, always
+          trying to keep him in line.</p>
+      </div>
+      <div class="char-flex">
+        <h3>Hiroshi Nohara (Dad)</h3>
+        <img src="img/img3.webp" alt="">
+        <p>The laid-back father who works at a company
+          and enjoys his evening beer.</p>
+      </div>
+      <div class="char-flex">
+        <h3>Himawari (Sister)</h3>
+        <img src="img/img4.png" alt="">
+        <p>The youngest of the Noharas. Loves shiny objects and brandname goods. Smiles sideways, like Shinchan.</p>
+      </div>
+      <div class="char-flex">
+        <h3>Yukino Nohara (Shiro)</h3>
+        <img src="img/img5.png" alt="">
+        <p>The family dog — small, fluffy, and sometimes the
+          most sensible member of the household.</p>
+      </div>
+      <div class="char-flex">
+        <h3>Toru Kazama</h3>
+        <img src="img/img6.webp" alt="">
+        <p>The smart and responsible friend of Shinchan,
+          often the voice of reason in the group.</p>
+      </div>
+    </div>
+    <div id="footer">
+      <h1 style="margin-top: 1.875rem;">Who's your favorite?</h1>
+      <p style="margin-top: 10px;">Who's your favorite character?
+        <select name="Shinchan" id="">
+          <option value="">Shinchan</option>
+        </select>
+      </p>
+      <h4 style="margin-top: 30px;">Character not in the list? Write their name below:</h4>
+      <p style="margin-top: 10px;">Your other favourite character: <input type="text"
+          placeholder="Enter character name"></p>
+      <p style="margin-top: 10px;">
+        Why do you like this character?
+      </p>
+      <p style="margin-top: 20px;">
+        <textarea name="" id="" cols="50" rows="4"></textarea>
+      </p>
+      <h3 style="margin-top: 30px;">Tell us a bit more about yourself</h3>
+      <p style="margin-top: 20px;">Your Name: <input type="text" placeholder="Enter your name"></p>
+      <p style="margin-top: 20px;" class="radio">Your Gender: Male<input type="radio" name="sex"> Female<input
+          type="radio" name="sex"></p>
+      <p style="margin-top: 20px;">
+        Your Date of Birth: <input type="text" placeholder="dd.mm.yyyy">
+      </p>
+      <p style="margin-top: 20px;">
+        Your Email: <input type="text" placeholder="Enter your email">
+      </p>
+      <p style="margin-top: 20px;"><button>submit</button></p>
+      <p style="margin-top: 50px;">© 2025 Programming4</p>
+      <p style="margin-top: 10px;">Get in touch with us: <a href="">shinchan-lovers@justlearninghtml.com</a></p>
+    </div>
+  </main>
 </body>
+
 </html>
